@@ -5,4 +5,4 @@ services:
     volumes:
       - ./config:/config
     restart: unless-stopped
-     command: [ "sh", "-c", "/start.sh && python3 /TC2-APRS-BBS/server.py" ]
+    command: [ "sh", "-c", "/start.sh && python3 /TC2-APRS-BBS/server.py" ]
